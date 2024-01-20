@@ -1,0 +1,409 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+ 
+body{
+   
+
+   
+  background-color: aliceblue;
+   
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+.title{
+    margin:20px 0px;
+
+
+}
+.main{
+    width: 100%;
+    max-width: 700px;
+    min-height:300px;
+    height:100%;
+    margin:auto;
+    
+    border: 5px groove #3d69aa ;
+    border-radius: 15px;
+    overflow:hidden;
+    backface-visibility: 0.5;
+   
+
+}
+.name{
+    display:flex;
+    font-size:40px;
+    font-weight:600;
+    padding:8px 16px;
+    color:#7c97bf;
+    background-color:aliceblue;
+
+    
+}
+.name>span{
+    color:rgb(1, 1, 1);
+
+}
+.name-input{
+    font-size: 30px;
+    font-weight:600;
+    color:black;
+    flex-grow:1;
+    border:none;
+    margin:0px 12px;
+    outline:none;
+    background-color:aliceblue;
+
+
+
+}
+.message-container{
+    
+    font-weight:500;
+    display:flex;
+    flex-direction: column;
+    background-color: #7c97bf;
+    width:100%;
+    height:400px;
+    max-width:700px;
+   
+    
+    overflow-y:auto;
+    overflow-x: hidden;
+ 
+
+}
+.message-left,.message-right{
+    list-style: none;
+    padding: 8px 12px;
+    margin:12px;
+    max-width:250px;
+    font-size:20px;
+    word-wrap:break-word;
+}
+.message-left{
+    border-radius: 18px 18px 18px 0px;
+    align-self: flex-start;
+    background-color: aliceblue;
+    box-shadow:-2px 2px 4px  #7c97bf;
+
+}
+.message-right{
+    border-radius: 18px 18px 0px 18px;
+    align-self: flex-end;
+    background-color: aliceblue;
+    box-shadow:2px 2px 4px  #7c97bf;
+
+}
+.message-left > p > span, .message-right > p > span{
+    display: block;
+    font-style:oblique;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight:500;
+    
+    
+
+
+}
+.feedback{
+    font-style: oblique;
+    font-size: 17px;
+    padding: 0px 16px 16px 16px;
+    text-align: center;
+    font-weight:550;
+
+
+}
+.message-form{
+    display:flex;
+    justify-content: space-between;
+    width:600px;
+    font-size:40px;
+
+
+
+}
+.message-input{
+    flex-grow:1;
+    height: 48px;
+    font-size:16px;
+    border:none;
+    outline:none;
+    padding: 0 12px;
+    background-color: aliceblue;
+
+
+   
+
+
+    
+
+}
+.send-button{
+          height:48px;
+          font-size: 16px;
+          border:none;
+          padding:0px 20px;
+          outline:none;
+          background-color: aliceblue;
+          cursor:pointer;
+          width: fit-content;
+
+
+
+
+}
+.v-divider{
+    height:48px;
+    width:1px;
+    background-color: #3a65a6;
+
+
+
+}
+.clients-total{
+    margin:20px 0;
+    colour:#7e7e7e;
+
+}
+.languages{
+    height:48px;
+    width: fit-content;
+    
+          font-size:16px;
+          border:none;
+          padding:0px 0px;
+          outline:none;
+          background-color: aliceblue;
+          cursor:pointer;
+         
+
+
+
+
+}
+
+
+@media (max-width: 600px) {
+    body{
+   
+
+   
+        background-color: aliceblue;
+         
+          font-family: 'Raleway', sans-serif;
+          display: flex;
+          flex-direction:column;
+          justify-content: center;
+          align-items: center;
+        
+      
+      }
+      .title{
+          margin:15px 0px;
+         
+      
+      }
+      .main{
+          width: 100%;
+          height:600px;
+          max-width: 600px;
+          min-height:300px;
+         
+          margin:auto;
+          
+          border: 5px groove #3d69aa ;
+          border-radius: 15px;
+          overflow:hidden;
+          backface-visibility: 0.5;
+         
+      
+      }
+      .name{
+          display:flex;
+          font-size:40px;
+          font-weight:600;
+          padding:8px 16px;
+          color:#7c97bf;
+          background-color:aliceblue;
+      
+          
+      }
+      .name>span{
+          color:rgb(1, 1, 1);
+      
+      }
+      .name-input{
+          font-size: 30px;
+          font-weight:600;
+          color:black;
+          flex-grow:1;
+          border:none;
+          margin:0px 12px;
+          outline:none;
+          background-color:aliceblue;
+      
+      
+      
+      }
+      .message-container{
+          
+          font-weight:500;
+          display:flex;
+          flex-direction: column;
+          background-color: #7c97bf;
+          width:100%;
+          height:480px;
+          max-width:600px;
+         
+          
+          overflow-y:auto;
+          overflow-x: hidden;
+       
+      
+      }
+      .message-left,.message-right{
+          list-style: none;
+          padding: 8px 12px;
+          margin:12px;
+          max-width:250px;
+          font-size:20px;
+          word-wrap:break-word;
+      }
+      .message-left{
+          border-radius: 18px 18px 18px 0px;
+          align-self: flex-start;
+          background-color: aliceblue;
+          box-shadow:-2px 2px 4px  #7c97bf;
+      
+      }
+      .message-right{
+          border-radius: 18px 18px 0px 18px;
+          align-self: flex-end;
+          background-color: aliceblue;
+          box-shadow:2px 2px 4px  #7c97bf;
+      
+      }
+      .message-left > p > span, .message-right > p > span{
+          display: block;
+          font-style:oblique;
+          font-size: 14px;
+          margin-top: 5px;
+          font-weight:500;
+          
+          
+      
+      
+      }
+      .feedback{
+          font-style: oblique;
+          font-size: 17px;
+          padding: 0px 16px 16px 16px;
+          text-align: center;
+          font-weight:550;
+      
+      
+      }
+      .message-form{
+          display:flex;
+          justify-content: space-between;
+          width:600px;
+
+          font-size:40px;
+      
+      
+      
+      }
+      .message-input{
+          flex-grow:1;
+          height: 60px;
+          font-size:20px;
+          border:none;
+          outline:none;
+          padding: 6px 6px;
+          background-color: aliceblue;
+          width:200px;
+      
+      
+         
+      
+      
+          
+      
+      }
+      .send-button{
+                height:48px;
+                font-size: 16px;
+                border:none;
+                padding:0px 20px;
+                outline:none;
+                background-color: aliceblue;
+                cursor:pointer;
+                width:100px;
+               
+      
+      
+      
+      
+      }
+      .v-divider{
+          height:48px;
+          width:1px;
+          background-color: #3a65a6;
+        
+      
+      
+      
+      }
+      .clients-total{
+          margin:20px 0;
+          colour:#7e7e7e;
+      
+      }
+      .languages{
+          height:48px;
+          width:100px;
+          
+                font-size:16px;
+                border:none;
+                padding:0px 0px;
+                outline:none;
+                background-color: aliceblue;
+                cursor:pointer;
+
+               
+      
+      
+      
+      
+      }
+      
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
